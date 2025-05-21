@@ -43,8 +43,27 @@ Install required libraries:
 *pip install pandas numpy matplotlib seaborn scipy ipywidgets ipympl jupyterlab kaggle*
 
 Upgrade ipywidgets and ipympl for interactive visualizations:
-
 *pip install --upgrade ipywidgets ipympl*
+
+Downloads bitsnpieces/covid19-country-data via Kaggle API.
+ *!pip install kaggle*
+
+Runs linear regression for scatter plot trends(scipy)
+ *!pip install scipy*
+
+Enables interactive plots with %matplotlib widget (ipympl)
+ *!pip install ipympl*
+
+Creates histograms and scatter plots(matplotlib). 
+*!pip install --upgrade ipympl matplotlib jupyterlab*
+
+Runs notebook, shows visualizations/widgets(jupyterlab)
+*!pip install --upgrade ipympl matplotlib jupyterlab*
+
+Adds sliders for regression/density adjustments(ipywidgets)
+*!pip install ipywidgets, pip install --upgrade ipywidgets*
+
+
 
 ### Set Up Kaggle API
 
