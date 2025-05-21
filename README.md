@@ -40,27 +40,27 @@ The dataset is sourced from Kaggle: COVID-19 Country Data. It includes the covid
 Install Python 3.x and Jupyter Notebook (e.g., via Anaconda).
 Install required libraries:
 
-*pip install pandas numpy matplotlib seaborn scipy ipywidgets ipympl jupyterlab kaggle*
+1. *pip install pandas numpy matplotlib seaborn scipy ipywidgets ipympl jupyterlab kaggle*
 
-Upgrade ipywidgets and ipympl for interactive visualizations:
+2. Upgrade ipywidgets and ipympl for interactive visualizations:
 *pip install --upgrade ipywidgets ipympl*
 
-Downloads bitsnpieces/covid19-country-data via Kaggle API.
- *!pip install kaggle*
+3. Downloads bitsnpieces/covid19-country-data via Kaggle API.
+*!pip install kaggle*
 
-Runs linear regression for scatter plot trends(scipy)
- *!pip install scipy*
+4. Runs linear regression for scatter plot trends(scipy)
+*!pip install scipy*
 
-Enables interactive plots with %matplotlib widget (ipympl)
+5. Enables interactive plots with %matplotlib widget (ipympl)
  *!pip install ipympl*
 
-Creates histograms and scatter plots(matplotlib). 
+6. Creates histograms and scatter plots(matplotlib). 
 *!pip install --upgrade ipympl matplotlib jupyterlab*
 
-Runs notebook, shows visualizations/widgets(jupyterlab)
+7. Runs notebook, shows visualizations/widgets(jupyterlab)
 *!pip install --upgrade ipympl matplotlib jupyterlab*
 
-Adds sliders for regression/density adjustments(ipywidgets)
+8. Adds sliders for regression/density adjustments(ipywidgets)
 *!pip install ipywidgets, pip install --upgrade ipywidgets*
 
 
