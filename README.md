@@ -93,10 +93,22 @@ extract_to_path = "covid19-country-data"
 with zipfile.ZipFile(zip_file_path, "r") as zip_ref:
     zip_ref.extractall(extract_to_path)*
 
-## Insights and Reflections
-1. Data Quality: The dataset has no missing values or duplicates, ensuring reliable analysis.
-2. Economic Trends: Scatter plots show a positive correlation between Cost of Living Index and Rent Index, indicating higher living costs are associated with higher rents.
-3.Interactive Analysis: Sliders for regression slopes and kernel density bandwidth enable dynamic exploration of data relationships.
+## Visualizations and Insights
+### Histograms:
+
+1.Local Purchasing Power Index: Shows a right-skewed distribution, indicating most countries have moderate to low purchasing power, with few high outliers (e.g., Switzerland).
+
+2.Cost of Living Plus Rent Index: Reveals a spread from low to high costs, with a peak around moderate values, suggesting varied economic conditions globally.
+
+3.Scatter Plots:
+Strong positive correlation between Cost of Living and Rent Indices, indicating higher living costs align with higher rents.
+Moderate correlation between Purchasing Power and Groceries Indices, with outliers highlighting economic disparities.
+
+4.Interactive Widgets:
+Regression Slider: Adjusts regression line slope for Cost of Living vs. Rent, revealing fit quality (R² shown in output).
+Kernel Density Bandwidth Slider: Modifies density plot smoothness for Groceries Index, highlighting data distribution nuances.
+
+5.Data Quality: No missing values or duplicates, ensuring reliable analysis.
 
 
 
